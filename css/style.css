@@ -63,8 +63,9 @@ nav{
 
 .jumbotron h1{
     font-size: 5.6em;
-    padding: 100px 200px 20px 150px;
+    padding: 100px 400px 20px 150px;
     line-height: 120px;
+    margin-right: 250px;
 }
 
 .jumbotron p{
@@ -103,5 +104,23 @@ nav{
 
 
 .container{
+    width: 60%;
+    margin: 250px auto;
+    text-align: center;
+    padding-top: 100px;
+}
 
+.container h2{
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+.container span, input{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.container > div{
+    width: 100%;
+    text-align: left;
 }
