@@ -72,6 +72,10 @@ nav{
     padding-left: 150px;
 }
 
+.jumbotron div{
+    display: inline-block;
+}
+
 .free-trial{
     background-color: #0061ff;
     display: inline-block;
@@ -88,7 +92,13 @@ nav{
 }
 
 .jumbo-img{
-    width: 60%;
+    width: 100%;
+}
+
+.img-container{
+    display: inline-block;
+    width: 50%;
+    margin-right: 200px;
 }
 
 
