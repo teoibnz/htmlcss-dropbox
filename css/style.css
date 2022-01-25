@@ -4,3 +4,21 @@
     padding: 0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+header{
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    padding: 30px 30px;
+}
+.container{
+
+}
