@@ -121,7 +121,6 @@ nav{
 }
 
 .container > div{
-    /* width: 100%; */
     text-align: left;
 }
 
@@ -130,5 +129,4 @@ nav{
     height: 500px;
     border: 1px solid black;
     margin: 40px 40px 0 0;
-    
 }
