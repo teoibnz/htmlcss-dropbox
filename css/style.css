@@ -160,6 +160,7 @@ nav{
 .horizontal{
     width: 100%;
     height: 300px;
+    margin-bottom: 100px;
 }
 
 .horizontal div.float-left{
@@ -169,6 +170,42 @@ nav{
 
 .row-line{
     border-bottom: 1px solid black;
+}
+
+.central-img{
+    width: 55%;
+    
+}
+
+.central-img img{
+    height: 500px;
+}
+
+.central-text{
+    width: 45%;
+}
+
+.central-text h3{
+    font-size: 2em;
+}
+
+.central-text h3, p{
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.partner{
+    border: 1px solid black;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p a.partner{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 #bt-sales{
     margin: 0 30px 80px 0;
