@@ -285,3 +285,9 @@ p a.partner{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.box-img{
+    width: 50%;
+    height: 250px;
+    border: 1px solid black;
+}
