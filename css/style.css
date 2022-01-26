@@ -291,3 +291,13 @@ p a.partner{
     height: 250px;
     border: 1px solid black;
 }
+
+
+.faq-banner{
+    background-color: #b4d0e7;
+    
+}
+.faq-text{
+    width: 55%;
+    height: 400px;
+}
