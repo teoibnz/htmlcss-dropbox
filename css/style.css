@@ -110,14 +110,6 @@ nav{
     
 }
 
-#middle-title{
-    font-size: 3em;
-    margin:250px 0 100px 0;
-}
-
-#central-schedule{
-    margin: 40px 40px 0 40px;
-}
 .check{
     padding-left: 10px;
     text-align: left;
@@ -132,6 +124,7 @@ nav{
     text-align: center;
 }
 .type-schedule{
+    width: 100%;
     text-align: center;
 }
 
@@ -167,4 +160,33 @@ nav{
 .horizontal{
     width: 100%;
     height: 300px;
+}
+
+.horizontal div.float-left{
+    width: 70%;
+    padding-left: 10px;
+}
+
+.row-line{
+    border-bottom: 1px solid black;
+}
+#bt-sales{
+    margin: 0 30px 80px 0;
+    
+}
+
+#middle-title{
+    font-size: 3em;
+    margin:250px 0 100px 0;
+}
+
+#central-schedule{
+    margin: 40px 40px 0 40px;
+}
+
+#enterprise{
+    font-size: 2em;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 30px;
 }
