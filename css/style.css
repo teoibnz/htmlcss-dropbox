@@ -294,6 +294,15 @@ p a.partner{
     border: 1px solid black;
 }
 
+.box-img img{
+    padding: 20%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
 
 .faq-banner{
     background-color: #b4d0e7;
@@ -304,7 +313,6 @@ p a.partner{
 }
 .faq-text{
     width: 55%;
-    height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -318,16 +326,48 @@ p a.partner{
     margin-left: 200px;
     display: inline-block;
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
 }
 
 .faq-text h1{
     font-size: 2em;
+    color: #620a2d;
 }
-
 
 .faq-text div{
     width: 50%;
     font-size: 1.5em;
     display: inline-block;
+}
+
+.bc-green{
+    background-color:#a2d39b;
+}
+
+.bc-magenta{
+    background-color: #61082b;
+}
+
+.bc-lightblue{
+    background-color: #0093ce;
+}
+
+.bc-red{
+    background-color: #ff1c1c;
+}
+
+.bc-dark-red{
+    background-color: #d5001f;
+}
+
+.bc-celeste{
+    background-color: #b4d0e7;
+}
+
+.bc-dark-blue{
+    background-color: #0d2481;
+}
+
+.bc-yellow{
+    background-color: #ffd830;
 }
