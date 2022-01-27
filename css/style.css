@@ -291,7 +291,6 @@ p a.partner{
 .box-img{
     width: 50%;
     height: 250px;
-    border: 1px solid black;
 }
 
 .box-img img{
@@ -370,4 +369,20 @@ p a.partner{
 
 .bc-yellow{
     background-color: #ffd830;
+}
+
+.faq-title{
+    font-size: 2em;
+    position: relative;
+    margin: 50px;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+}
+
+.question{
+    width: 100%;
+    padding: 0 0 50px 0;
+    margin-left: 50px;
+    border-bottom: 0.5px solid black;
 }
