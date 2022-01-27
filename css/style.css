@@ -316,7 +316,7 @@ p a.partner{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 50px;
+    padding: 50px 50px 50px 0;
 }
 
 .faq-text a{
@@ -374,7 +374,7 @@ p a.partner{
 .faq-title{
     font-size: 2em;
     position: relative;
-    margin: 50px 50px 0 50px;
+    margin: 50px 50px 0 0;
     padding-bottom: 50px;
     border-bottom: 0.5px solid black;
     width: 100%;
@@ -383,8 +383,7 @@ p a.partner{
 .question{
     width: 100%;
     padding: 0 0 50px 0;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 50px 0;
     border-bottom: 0.5px solid black;
 }
 
@@ -392,4 +391,10 @@ p a.partner{
     float: right;
     text-decoration: none;
     color: black;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 600px;
 }
