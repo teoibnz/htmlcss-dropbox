@@ -402,10 +402,7 @@ footer{
 
 .ft-container{
     width: 80%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 310px;
 }
 
 .ft-container h3{
@@ -416,6 +413,7 @@ footer{
 
 .ft-container h3, li{
     padding: 0 0 15px 0;
+    list-style-type: none;
 }
 
 .question-box{
